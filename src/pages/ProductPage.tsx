@@ -21,7 +21,7 @@ export function ProductsPage() {
       <HeaderTitle />
       {loading && <Loader />}
       {error && <Error error={error} />}
-      <div className="card w-auto p-8 mx-auto flex flex-row flex-wrap justify-center gap-12 ">
+      <div className="card w-auto max-w-full p-8 mx-auto flex flex-row flex-wrap justify-center gap-12 ">
         {products.map((elem) => (
           <Product product={elem} key={elem.id} />
         ))}

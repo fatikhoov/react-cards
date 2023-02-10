@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 export function Navigation() {
   return (
     <nav className="h-[60px] flex justify-between px-8 bg-gray-500 text-white items-center">
-      <span>Фатихов Владислав</span>
+      <span>Hi</span>
       <span>
         <Link to="/" className="mr-6">
-          Карточки товаров
+          Магазин
         </Link>
-        <Link to="/about">О продукте</Link>
+        <Link to="/about">Контакты</Link>
       </span>
     </nav>
   )
